@@ -11,7 +11,7 @@ This project aims to visualize the Gross Domestic Product (GDP) data for the Uni
 
 ## How to Use
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine or open the link provided below.
 2. Open the `index.html` file in a web browser to view the GDP bar chart.
 3. Hover over each bar to see details about GDP for specific time periods.
 
@@ -24,6 +24,5 @@ This project aims to visualize the Gross Domestic Product (GDP) data for the Uni
 
 ---
 
-Feel free to customize this description based on your project specifics and requirements!
 
 ### Check it out here at [GDP charts](https://sotonye0808.github.io/barChart)
