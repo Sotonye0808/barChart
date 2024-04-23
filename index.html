@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bar Chart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="title-us">United States GDP</h1>
+    <svg id="chart-us"></svg>
+    <div id="tooltip-us" class="tooltip"></div>
+  </div>
+  <div class="container">
+    <h1 id="title-ng">Nigeria GDP</h1>
+    <svg id="chart-ng"></svg>
+    <div id="tooltip-ng" class="tooltip"></div>
+  </div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="main.js"></script>
+  <footer>
+    <p>Units are in Billions</p>
+    <p class="us-link"><a href="https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json">US GDP</a></p>
+    <p class="ng-link"><a href="https://api.worldbank.org/v2/country/NGA/indicator/NY.GDP.MKTP.CD?format=json&date=1960:2020">NGA GDP</a></p>
+</footer>
+</body>
+</html>
